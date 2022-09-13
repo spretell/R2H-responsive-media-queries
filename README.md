@@ -1,4 +1,7 @@
 # R2H-Responsive-web-design
+
+This activity is designed for students to practice with media queries.
+
 For this activity 
 1. Clone the repository onto your computer
 2. Open in VS code and web browser
