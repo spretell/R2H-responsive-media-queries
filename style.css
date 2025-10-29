@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(77, 76, 76)
+    background-color: rgb(224, 240, 254);
 }
 div{
     width: 100%;
@@ -32,11 +32,11 @@ ul li{
     font-size: 16px
 }
 
-@media screen and (max-width:1500px){
+@media screen and (max-width: 500px){
     div{
         background-color: blue;
     }
-    #red{
+    #red{ 
         color: red;
         font-size: 16px;
     }
@@ -54,6 +54,33 @@ ul li{
     }
 }
 
+@media screen and (min-width: 300px) and (max-width: 500px) {
+     div{
+        background-color: green;
+    }
+    #green{
+        color: green;
+        font-size: 60px;
+    }
+    #blue{
+        color: blue;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 300px) {
+     div{
+        background-color: yellow;
+    }
+    #yellow{
+        color: yellow;
+        font-size: 60px;
+    }
+    #blue{
+        color: blue;
+        font-size: 16px;
+    }
+}
 
 
 
